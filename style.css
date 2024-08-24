@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(35, 3, 61);
+    color: wheat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: space-between;
+    justify-content: space-between;
+}
+h1{
+    background-color:white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 30px;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center; ;
+}
+
+.option{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.option img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.option:hover{
+    transition: all .5s;
+    background-color: tomato;
+}
+
+.score-board{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    font-size: 1.2rem;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+}
+
+.msg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.1rem;
+    padding: 20px;
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+}
+
+.check-turn{
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#reset{
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
